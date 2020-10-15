@@ -1,0 +1,15 @@
+Developer: Jainil Patel
+
+Purpose:
+The purpose of the program is to replace all occurrences of the find or prefix being passed in by the user.
+If the find parameter is found it is replaced with all the replace parameters, if not then the program looks for the prefix.
+If it is found the find parameter being passed in is prepended in front of the all the occurrences of the prefix found.
+Moreover, if the neither are found then the program exits and nothing happens.
+
+Usage:
+
+make
+
+./replace "find-parameter" "replace-parameter" "prefix-parameter"
+
+make clean
